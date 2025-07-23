@@ -15,6 +15,7 @@
       background: #f4f8fc;
       color: #333;
     }
+
     header {
       display: flex;
       align-items: center;
@@ -23,26 +24,28 @@
       padding: 10px 20px;
       border-bottom: 2px solid #ccc;
       gap: 15px;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
     }
+
     .header-img {
       height: 80px;
       object-fit: contain;
     }
+
     @media (max-width: 768px) {
-      header {
-        flex-direction: column;
-      }
       .header-img {
-        height: 60px;
+        height: 50px;
+        max-width: 40%;
       }
     }
+
     h1 {
       text-align: center;
       font-size: 22px;
       color: #800000;
       margin: 20px 10px;
     }
+
     .content {
       padding: 20px;
       max-width: 900px;
@@ -52,6 +55,7 @@
       box-shadow: 0 0 10px rgba(0,0,0,0.05);
       overflow-x: auto;
     }
+
     .content h2 {
       color: #004080;
       font-size: 20px;
@@ -59,20 +63,24 @@
       border-bottom: 1px solid #ccc;
       padding-bottom: 5px;
     }
+
     table {
       width: 100%;
       border-collapse: collapse;
       margin-top: 10px;
     }
+
     th, td {
       padding: 10px;
       text-align: left;
       border: 1px solid #ccc;
       font-size: 15px;
     }
+
     th {
       background: #e0ecff;
     }
+
     .instructions {
       margin-top: 30px;
       background: #fff8e1;
@@ -81,11 +89,13 @@
       font-size: 16px;
       border-radius: 6px;
     }
+
     .instructions h3 {
       margin-top: 0;
       color: #e65100;
       font-size: 18px;
     }
+
     footer {
       text-align: center;
       padding: 15px;
@@ -94,6 +104,7 @@
       background: #eaeaea;
       margin-top: 30px;
     }
+
     a {
       color: #0b5394;
       text-decoration: underline;
