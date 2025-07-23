@@ -23,13 +23,17 @@
       padding: 10px 20px;
       border-bottom: 2px solid #ccc;
       gap: 15px;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
     }
     .header-img {
       height: 80px;
       object-fit: contain;
     }
     @media (max-width: 768px) {
+      header {
+        flex-wrap: nowrap;
+        justify-content: center;
+      }
       .header-img {
         height: 60px;
       }
@@ -117,7 +121,7 @@
         </tr>
       </thead>
       <tbody>
-        <tr><td>1</td><td>Joining Report </td><td>Original + Xerox</td></tr>
+        <tr><td>1</td><td>Joining Report Downloaded from website </td><td>Original + Xerox</td></tr>
         <tr><td>2</td><td>Original Provisional Allotment Order</td><td>Original + Xerox</td></tr>
         <tr><td>3</td><td>Receipt of Certificates Issued by the Convener</td><td>Xerox</td></tr>
         <tr><td>4</td><td>SSC Marks Memo (Migration Certificate if CBSE)</td><td>Original + Xerox</td></tr>
@@ -145,17 +149,36 @@
         </tr>
       </thead>
       <tbody>
-        <tr><td>1</td><td>Application Filling & Scanning</td><td>C-305 (Seminar Hall), 2nd Floor, CSE Department</td></tr>
-        <tr><td>2</td><td>Online Application Filling , Certificate Verification & Submission </td><td>CAB 101, Ground floor, CSE Department</td></tr>
+        <tr>
+          <td>1</td>
+          <td>Application Form Filling Manually </td>
+          <td>C-305 (Seminar Hall) – CSE Department</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Document Scanning and Upload</td>
+          <td>C-305 (Seminar Hall) – CSE Department</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Application Form Filling Online </td>
+          <td>CAB 101 – CSE Department</td>
+        </tr>
+        <tr>
+          <td>4 </td>
+          <td> Certificate Verification & Collection</td>
+          <td>CAB 101 – CSE Department</td>
+        </tr>
       </tbody>
     </table>
 
     <div class="instructions">
       <h3>Additional Instructions for Students and Parents</h3>
       <ul>
-        <li><strong>Bank Account Details:</strong> Student or Parent account details required if eligible for scholarships.</li>
-        <li><strong>Parental Access:</strong> Parents are <strong>not allowed inside</strong> the department. They must wait at the designated areas outside.</li>
+        <li><strong>Bank Account Details:</strong> Bring student/parent bank details (Account Number & IFSC) if eligible for scholarships.</li>
+        <li><strong>Parent Entry:</strong> Parents are <strong>not allowed inside</strong> the department. They must wait outside at designated places.</li>
         <li><strong>Download Allotment Order & Joining Report:</strong> <a href="https://eapcet-sche.aptonline.in/EAPCET/" target="_blank">Click here</a></li>
+        
       </ul>
     </div>
   </div>
